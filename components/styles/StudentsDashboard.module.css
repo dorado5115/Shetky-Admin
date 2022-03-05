@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 60px 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  background-color: #6a02de;
+}
+
+.header button:hover {
+  background-color: #7504f1;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+  border-radius: 10px;
+  border: none;
+}
+
+.modal button {
+  background-color: #6a02de;
+}
+
+.modal button:hover {
+  background-color: #7504f1;
+}
+
+.title {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.textField {
+  font-family: Montserrat;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.textField {
+  display: flex;
+  flex-direction: column;
+}
+
+.textField input {
+  font-family: Montserrat;
+}
+
+.textField label {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.textField .separator {
+  margin: 10px 0;
+}
+
+.textField input::placeholder {
+  font-family: Montserrat;
+}
