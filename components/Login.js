@@ -15,7 +15,7 @@ export default function Login(){
                 className={styles.logo}
                 />
                 <p>
-                    Your best friend for the collage!
+                    Your best friend for the college!
                 </p>
                 <p className={styles.login}>
                     <Link href="/api/auth/login">
